@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Avenir Heavy";
+    src: url("../fonts/AEH.ttf") format("truetype");
+}
+
+
+* {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding-top: 10px;
+    background: rgb(64, 63, 63);
+    font-family: Avenir Heavy;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35px;
+    text-align: center;
+}
+
+.buy {
+    padding-top: 9px;
+    width: 110px;
+    height: 30px;
+    background: none;
+    border: 1px solid #ffffff;
+    color: white;
+    border-radius: 6px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.buy:hover {
+    border: 1px solid rgb(255, 163, 102);
+    background: rgb(255, 163, 102);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+.logo {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.chapters {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.text {
+    padding-top: 200px;
+}
+
+.email {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.name {
+    margin-right: 25px;
+    background-color: rgb(64, 63, 63);
+    border-radius: 4px;
+    border: 3px solid rgb(99, 98, 98);
+    padding: 10px 20px;
+    color: rgb(99, 98, 98);
+    font-size: 20px;
+    transition: 0.25s;
+}
+
+.name:focus {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.name:focus {
+    color: white;
+}
+
+.name:focus::placeholder {
+    color: transparent;
+}
+
+.mail {
+    margin-right: 25px;
+    background-color: rgb(64, 63, 63);
+    border-radius: 4px;
+    border: 3px solid rgb(99, 98, 98);
+    padding: 10px 20px;
+    color: rgb(99, 98, 98);
+    font-size: 20px;
+    transition: 0.25s;
+}
+
+.mail:focus {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.mail:focus {
+    color: white;
+}
+
+.mail:focus::placeholder {
+    color: transparent;
+}
+
+.btn-buy {
+    background-color: rgb(255, 163, 102);
+    border-radius: 4px;
+    border: 3px solid rgb(255, 163, 102);
+    padding: 15px 40px 13px 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.error {
+    color: white;
+    font-size: 30px;
+}
