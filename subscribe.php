@@ -26,14 +26,13 @@ if(isset($_POST['submit'])) {
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="css/subscribe.css">
-    <link href="//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 
 <body>
     <div class="nav-bar">
         <div class="logo">
-            <a href="#"><?php echo "Hello, " . $_SESSION['username']. "!"?></a>
+		    <a><?php echo "Hello, " . $_SESSION['username']. "!"?></a>
         </div>
         <div class="nav-about">
         </div>

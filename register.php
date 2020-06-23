@@ -23,7 +23,7 @@ if(isset($_POST['submit'])) {
     <title>Mastering UI Design</title>
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="css/style-register.css">
+    <link rel="stylesheet" href="css/style-register.css?2">
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script defer src="js/register.js"></script>
 </head>
